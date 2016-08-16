@@ -1,0 +1,23 @@
+<html lang="en" ng-app="pastebin">
+<head>
+  <title>Pastebin</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="css/pastebin.css" />
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.4.4/angular.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.4.4/angular-route.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.4.4/angular-resource.min.js"></script>
+  <script src="js/pastebin.js"></script>
+  <script src="js/controllers.js"></script>
+</head>
+
+<body>
+
+  <div id="editor">
+    <div ng-view style="min-height: 600px;"></div>
+  </div>
+  
+</body>
+</html>
